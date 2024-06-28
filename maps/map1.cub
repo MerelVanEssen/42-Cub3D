@@ -1,0 +1,15 @@
+NO textures/wood.png
+SO textures/redbrick.png
+WE textures/greystone.png
+EA textures/colorstone.png
+
+C 130,190,255
+F 120,120,120
+
+111111
+110001
+10S111
+100001
+111111
+100001
+111111
