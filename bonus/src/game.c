@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   game.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mvan-ess <mvan-ess@student.codam.nl>       +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/10 19:58:39 by alpetukh          #+#    #+#             */
-/*   Updated: 2024/06/28 21:12:07 by mvan-ess         ###   ########.fr       */
+/*                                                        ::::::::            */
+/*   game.c                                             :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: mvan-ess <mvan-ess@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2024/06/10 19:58:39 by alpetukh      #+#    #+#                 */
+/*   Updated: 2024/06/25 21:31:39 by alpetukh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,9 +67,7 @@ static void	draw(void *param)
 	draw_sprites(cube, wall);
 	if (cube->show_map == TRUE)
 		draw_minimap(cube);
-	move_sprites(cube);
-	if (cube->frames % 10 == 0)
-		change_timers(cube);
+	change_timers(cube);
 	cube->frames++;
 	if (cube->frames == INT_MAX)
 		cube->frames = 0;

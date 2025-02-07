@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   cub3d_bonus.h                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mvan-ess <mvan-ess@student.codam.nl>       +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/10 16:31:36 by alpetukh          #+#    #+#             */
-/*   Updated: 2024/06/28 20:56:27 by mvan-ess         ###   ########.fr       */
+/*                                                        ::::::::            */
+/*   cub3d_bonus.h                                      :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: mvan-ess <mvan-ess@student.codam.nl>         +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2024/06/10 16:31:36 by alpetukh      #+#    #+#                 */
+/*   Updated: 2024/06/25 20:45:10 by alpetukh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@
 # include "libft.h"
 # include "MLX42.h"
 
-# define WIDTH 2400 / 2
-# define HEIGHT 1600 /2
+# define WIDTH 2400
+# define HEIGHT 1600
 # define SPEED 0.05
 # define X 1
 # define Y 0

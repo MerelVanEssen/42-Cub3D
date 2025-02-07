@@ -6,7 +6,7 @@
 /*   By: mvan-ess <mvan-ess@student.codam.nl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 16:31:36 by alpetukh          #+#    #+#             */
-/*   Updated: 2024/06/28 21:12:33 by mvan-ess         ###   ########.fr       */
+/*   Updated: 2024/06/20 18:08:32 by mvan-ess         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,18 @@ typedef enum e_directions
 	WEST = 2,
 	EAST = 3
 }	t_direction;
+
+typedef struct s_minimap // bonus
+{
+	int		size;
+	double	start_map_x;
+	double	start_map_y;
+	double	map_x;
+	double	map_y;
+	int		start_pc_x;
+	int		start_pc_y;
+	int		color;
+}	t_minimap;
 
 typedef struct s_math
 {
